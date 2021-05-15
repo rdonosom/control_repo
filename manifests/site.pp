@@ -4,4 +4,7 @@ node default {
     content => 'Ejemplo de puppet content',
     owner => 'root',
     }
+    file {'/root/README':
+        owner => 'root',
+    }  
 }
